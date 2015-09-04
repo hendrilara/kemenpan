@@ -1,0 +1,29 @@
+{
+    "name": "meniqa/career",
+    "description": "Modul Career for meniqa SDM",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "masbenx",
+            "email": "me@masbenx.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "laravelbook/ardent": "2.*",
+        "barryvdh/laravel-migration-generator": "dev-master",
+        "dompdf/dompdf" : "0.6.*",
+        "barryvdh/laravel-dompdf": "0.4.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Meniqa\\Career": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
